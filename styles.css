@@ -5,6 +5,25 @@ div {
   width: 100%;
   max-width: 80vw; */
 }
+.list {
+  position: absolute;
+  top: 0;
+  color: aqua;
+  background-color: orange;
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+}
+h1 {
+  color: blue;
+  width: 99%;
+  position: fixed;
+  padding: 5px;
+  /* margin: 15px; */
+  box-sizing: border-box;
+  background-color: rgba(178, 207, 15, 0.5);
+  border: 2px solid rgb(14, 179, 88);
+}
 
 p {
   color: red;
@@ -18,7 +37,10 @@ h2 {
   border: 2px solid black;
   padding: 5px;
   width: 100%;
+  /* margin-right: 5px;
+  margin-left: 5px; */
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 ol {
