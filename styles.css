@@ -1,56 +1,40 @@
-div {
-  color: gray;
-  height: 100%;
-  /* max-height: 80vh;
-  width: 100%;
-  max-width: 80vw; */
-}
-.list {
-  position: absolute;
-  top: 0;
-  color: aqua;
-  background-color: orange;
-  border: 2px solid black;
-  padding: 5px;
-  width: 100%;
-}
 h1 {
-  color: blue;
-  width: 99%;
-  position: fixed;
-  padding: 5px;
-  /* margin: 15px; */
-  box-sizing: border-box;
-  background-color: rgba(178, 207, 15, 0.5);
-  border: 2px solid rgb(14, 179, 88);
+  text-shadow: 5px 7px 8px orange, -5px -5px 8px orangered;
+}
+#container {
+  position: relative;
 }
 
-p {
-  color: red;
-  font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
+#circle {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(70, 255, 70, 0.55);
+
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  margin-left: 100px;
 }
 
-h2 {
-  color: aqua;
-  background-color: orange;
-  border: 2px solid black;
-  padding: 5px;
-  width: 100%;
-  /* margin-right: 5px;
-  margin-left: 5px; */
-  overflow: hidden;
-  box-sizing: border-box;
+#circle-2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(70, 95, 255, 0.55);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  margin-left: 100px;
 }
 
-ol {
-  color: green;
-  font-size: 1.5em;
-  font: 200;
-}
-
-ul {
-  color: rgb(73, 211, 142);
-  font-size: 1.5em;
-  font: 200;
+#circle-3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 107, 70, 0.55);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 400px;
+  margin-left: 100px;
 }
